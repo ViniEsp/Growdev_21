@@ -1,0 +1,103 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif; /* Fonte sem serifa */
+    background-color: #b5b5dd; /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+pre {
+    color: #333; /* Cor do texto na tag <pre> */
+}
+
+/* Estilização das tags Hs */
+h1, h2, h3, h4, h5 {
+    color: #003366; /* Cor padrão */
+    font-size: 1.5em; /* Tamanho padrão */
+}
+
+/* Estilização dos golpes */
+strong {
+    color: #cc0000; /* Cor dos golpes */
+}
+
+/* Estilização da tag <mark> */
+mark {
+    background-color: rgb(22, 162, 184); /* Cor de fundo convertida para RGB */
+    color: black;
+}
+
+/* Estilização dos links */
+a {
+    color: #0066cc; /* Cor diferente do padrão */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+/* Estilização da tabela */
+table {
+    width: 30vw; /* Largura da tabela */
+    border-collapse: collapse; /* Fundir bordas da tabela */
+    border: 2px solid #003366; /* Cor da borda da tabela */
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #003366; /* Linhas na tabela */
+    padding: 10px;
+}
+
+table th {
+    background-color: #ccccff; /* Cor de fundo da parte superior da tabela */
+    border-bottom: 3px solid #003366; /* Borda inferior na descrição da tabela */
+}
+
+table tr:nth-child(even) {
+    background-color: #e6e6ff; /* Cor nas colunas pares */
+}
+
+/* Estilização das listas */
+ol {
+    list-style-type:lower-roman; /* Números em letras maiúsculas */
+}
+
+ul {
+    list-style-type: square ; /* Tipo de bullet da lista não ordenada */
+}
+
+/* Descrição da lista */
+dl {
+    border: 1px solid #003366; /* Borda ao redor */
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Estilização do iframe */
+iframe {
+    width: 30vw; /* Largura do iframe */
+    height: 30vh; /* Altura do iframe */
+    border: 2px solid #003366; /* Borda do iframe */
+    margin: 20px 0;
+}
+
+/* Estilização do botão */
+button {
+    background-color: #003366; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5; /* Cor de fundo do botão ao passar o mouse */
+}
+
+footer {
+    margin-top: 20px;
+}

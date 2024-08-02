@@ -1,0 +1,154 @@
+
+
+
+
+
+
+
+/* 
+
+/* Determine uma cor padrão e tamanho para as tags Hs ( h1, h2, h3, h4, h5) */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    margin: 0.5em 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #003366;
+}
+
+h2 {
+    font-size: 2em;
+    color: #003366;
+}
+
+h3 {
+    font-size: 1.75em;
+    color: #003366;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: #003366;
+}
+
+h5 {
+    font-size: 1.25em;
+    color: #003366;
+}
+
+h6 {
+    font-size: 1em;
+    color: #003366;
+}
+
+/* Mude a cor da fonte dos golpes que esse cavaleiro dá (tag <strong>) */
+strong {
+    color: #8B0000;
+}
+
+/* Estilize a cor da tag <mark> converta a cor para rgb */
+mark {
+    background-color: rgb(255, 255, 0);
+    color: #000000;
+}
+
+/* Estilize todos os links para que fique com uma cor diferente do padrão */
+a {
+    color: #1E90FF;
+    text-decoration: none; /* Remova o sublinhado de todos os links */
+}
+
+a:hover {
+    color: #FF4500;
+}
+
+/* Mude o estilo da borda da tabela e a cor da mesma */
+table {
+    border-collapse: collapse; /* Funda as bordas da tabela */
+    width: 30vw; /* Aumente a largura da tabela, para que tenha como dimensão 30/100 da altura da viewport */
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid #007ACC; /* Insira linhas na tabela, com 1px de espessura, que seja sólida */
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #E6E6FA; /* Altere a cor de fundo da parte superior da tabela */
+    border-bottom: 3px solid #007ACC; /* Na descrição da tabela, coloque uma borda inferior, com a mesma cor da borda da tabela. Adicione como espessura 3px */
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5; /* Aplique uma cor nas colunas pares da tabela */
+}
+
+/* Na lista de descrição, coloque uma borda ao redor para destacar o conteúdo */
+dl {
+    border: 2px solid #007ACC;
+    padding: 1em;
+}
+
+/* Na lista de episódios, mude os números para iniciar em letras maiúsculas */
+ol {
+    list-style-type: upper-alpha;
+}
+
+/* Mude o tipo de bullet da lista não ordenada */
+ul {
+    list-style-type: square;
+}
+
+/* Redimensione o iframe para para que tenha como dimensão 30/100 da altura da viewport e 30/100 da largura da viewport */
+iframe {
+    width: 30vw;
+    height: 30vh;
+}
+
+/* Estilize o botão */
+button {
+    background-color: #007ACC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+/* Melhore a aparência geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333333;
+    font-family: 'Arial', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #003366;
+    color: white;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+*/

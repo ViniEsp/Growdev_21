@@ -1,7 +1,7 @@
 /* Estilização geral */
 body {
-    font-family: Arial, sans-serif; /* Fonte sem serifa */
-    background-color: #b5b5dd; /* Cor de fundo */
+    font-family: Arial, sans-serif; 
+    background-color: #b5b5dd; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,57 +12,53 @@ body {
 }
 
 pre {
-    color: #333; /* Cor do texto na tag <pre> */
+    color: #333; 
 }
 
 /* Estilização das tags Hs */
 h1, h2, h3, h4, h5 {
-    color: #003366; /* Cor padrão */
-    font-size: 1.5em; /* Tamanho padrão */
+    color: #003366; 
+    font-size: 1.5em; 
 }
 
-/* Estilização dos golpes */
+/* Estilização dos destaques */
 strong {
-    color: #cc0000; /* Cor dos golpes */
+    color: #cc0000; 
 }
 
 /* Estilização da tag <mark> */
 mark {
-    background-color: rgb(22, 162, 184); /* Cor de fundo convertida para RGB */
+    background-color: rgb(22, 162, 184); 
     color: black;
 }
 
 /* Estilização dos links */
 a {
-    color: #0066cc; /* Cor diferente do padrão */
-    text-decoration: none; /* Remover sublinhado */
+    color: #0066cc; 
+    text-decoration: none; 
 }
 
 /* Estilização da tabela */
 table {
-    width: 30vw; /* Largura da tabela */
-    border-collapse: collapse; /* Fundir bordas da tabela */
-    border: 2px solid #003366; /* Cor da borda da tabela */
+    width: 30vw; 
+    border-collapse: collapse; 
+    border: 2px solid #003366; 
     margin: 20px 0;
 }
 
 table th, table td {
-    border: 1px solid #003366; /* Linhas na tabela */
+    border: 1px solid #003366; 
     padding: 10px;
 }
 
 table th {
-    background-color: #ccccff; /* Cor de fundo da parte superior da tabela */
-    border-bottom: 3px solid #003366; /* Borda inferior na descrição da tabela */
-}
-
-table tr:nth-child(even) {
-    background-color: #e6e6ff; /* Cor nas colunas pares */
+    background-color: #ccccff; 
+    border-bottom: 3px solid #003366; 
 }
 
 /* Estilização das listas */
 ol {
-    list-style-type:lower-roman; /* Números em letras maiúsculas */
+    list-style-type:lower-roman; 
 }
 
 ul {
@@ -71,23 +67,23 @@ ul {
 
 /* Descrição da lista */
 dl {
-    border: 1px solid #003366; /* Borda ao redor */
+    border: 1px solid #003366; 
     padding: 10px;
     margin: 20px 0;
 }
 
 /* Estilização do iframe */
 iframe {
-    width: 30vw; /* Largura do iframe */
-    height: 30vh; /* Altura do iframe */
-    border: 2px solid #003366; /* Borda do iframe */
+    width: 30vw; 
+    height: 30vh; 
+    border: 2px solid #003366; 
     margin: 20px 0;
 }
 
 /* Estilização do botão */
 button {
-    background-color: #003366; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
+    background-color: #003366; 
+    color: white; 
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -95,7 +91,7 @@ button {
 }
 
 button:hover {
-    background-color: #005bb5; /* Cor de fundo do botão ao passar o mouse */
+    background-color: #005bb5; 
 }
 
 footer {

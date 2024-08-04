@@ -1,0 +1,99 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #b5b5dd; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+pre {
+    color: #333; 
+}
+
+/* Estilização das tags Hs */
+h1, h2, h3, h4, h5 {
+    color: #003366; 
+    font-size: 1.5em; 
+}
+
+/* Estilização dos destaques */
+strong {
+    color: #cc0000; 
+}
+
+/* Estilização da tag <mark> */
+mark {
+    background-color: rgb(22, 162, 184); 
+    color: black;
+}
+
+/* Estilização dos links */
+a {
+    color: #0066cc; 
+    text-decoration: none; 
+}
+
+/* Estilização da tabela */
+table {
+    width: 30vw; 
+    border-collapse: collapse; 
+    border: 2px solid #003366; 
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #003366; 
+    padding: 10px;
+}
+
+table th {
+    background-color: #ccccff; 
+    border-bottom: 3px solid #003366; 
+}
+
+/* Estilização das listas */
+ol {
+    list-style-type:lower-roman; 
+}
+
+ul {
+    list-style-type: square ; /* Tipo de bullet da lista não ordenada */
+}
+
+/* Descrição da lista */
+dl {
+    border: 1px solid #003366; 
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Estilização do iframe */
+iframe {
+    width: 30vw; 
+    height: 30vh; 
+    border: 2px solid #003366; 
+    margin: 20px 0;
+}
+
+/* Estilização do botão */
+button {
+    background-color: #003366; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5; 
+}
+
+footer {
+    margin-top: 20px;
+}
